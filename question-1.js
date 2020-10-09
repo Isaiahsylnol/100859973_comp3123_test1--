@@ -9,6 +9,6 @@ var lowerCaseWords = new Promise(function(resolve, reject) {
      }
      resolve(sorted)
      
-  reject(new Error("Error with the Array")); // ignored
+  reject(new Error("Error with the Array")); 
 });
  console.log(sorted)
